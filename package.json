@@ -1,5 +1,5 @@
 {
-  "name": "koa-middleware-enterpriser",
+  "name": "@vested/koa-middleware-enterpriser",
   "version": "0.0.1",
   "description": "Koa middleware to make your project enterprise ready",
   "main": "_dist/index.js",
