@@ -1,0 +1,22 @@
+{
+  "name": "koa-middleware-enterpriser",
+  "version": "0.0.1",
+  "description": "Koa middleware to make your project enterprise ready",
+  "main": "_dist/index.js",
+  "types": "_dist/index.d.ts",
+  "repository": "https://github.com/vestedco/koa-middleware-enterpriser",
+  "author": "Brice Stacey <bricestacey@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "_dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf _dist",
+    "prepare": "yarn clean && yarn build"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.2",
+    "typescript": "^3.7.5"
+  }
+}
